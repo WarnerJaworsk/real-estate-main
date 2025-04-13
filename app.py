@@ -15,7 +15,7 @@ This app predicts the price of a real estate property based on various character
 #     st.stop()
 
 # Load the pre-trained model
-dt_pickle = open("RE_model.pkl", "rb")
+dt_pickle = open("models/RE_model.pkl", "rb")
 dt_model = pickle.load(dt_pickle)
 dt_pickle.close()
 
