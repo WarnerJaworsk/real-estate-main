@@ -1,12 +1,12 @@
-# Real_Estate_application
+# Real_Estate_Price_Prediction_Application
 
 This app has been built using Streamlit and deployed with Streamlit community cloud
 
-[Visit the app here](https://w10realestateproject-ie4ctutrjjvhkl4yhhfvs8.streamlit.app/)
+[Visit the app here](https://real-estate-main-mfyipwbx9jrs3glpueumcu.streamlit.app/)
 
 password - streamlit
 
-This application predicts real estate property based on user inputs. The model aims to help users estimate the value of properties using machine learning predictions.
+This application predicts real estate property prices based on user inputs. The model aims to help users estimate the value of properties using machine learning predictions.
 
 ## Features
 
@@ -24,14 +24,14 @@ The application is trained on the **final.csv dataset**. It includes features li
 - Insurance
 - Number of Beds
 - Number of Baths
-- Sqft
+- Square Feet
 - Year Built
 - Lot Size
-- Basement
-- popular
-- recession
+- Does it have a basement?
+- Located in a popular area?
+- Was it sold during a recession?
 - Property Age
-- Property Type
+- Property Type (Bunglow or Condo)
 
 ## Technologies Used
 
@@ -42,7 +42,7 @@ The application is trained on the **final.csv dataset**. It includes features li
 
 ## Model
 
-The predictive model is trained using the final.csv dataset. It applies preprocessing steps like encoding categorical variables and scaling numerical features. The model used may include algorithms such as Logistic Regression, Random Forest, or XGBoost.
+The predictive model is trained using the final.csv dataset. Preprocessing steps like encoding categorical variables and scaling numerical features were applied to the data prior to its use in this project. The model used includes a Decision Tree algorithm.
 
 ## Future Enhancements
 
@@ -57,7 +57,7 @@ If you want to run the application locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/credit_eligibility_application.git
+   git clone https://github.com/WarnerJaworsk/real-estate-main
    cd credit_eligibility_application
 
    ```
@@ -82,4 +82,4 @@ If you want to run the application locally, follow these steps:
    streamlit run app.py
    ```
 
-#### Thank you for using the Credit Eligibility Application! Feel free to share your feedback.
+#### Thank you for using the Real Estate Price Prediction Application! Feel free to share your feedback.
